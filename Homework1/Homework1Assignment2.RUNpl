@@ -1,0 +1,77 @@
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- [homework1assignment2].
+true.
+
+?- brother(X, yosef).
+X = yaakov ;
+X = yosef ;
+false.
+
+?- sister(X, yosef).
+X = tamar .
+
+?- sister(X, yosef).
+X = tamar ;
+X = ilana ;
+false.
+
+?- father(X, yosef).
+X = danny ;
+false.
+
+?- mother(X, yosef).
+X = yehudis.
+
+?- uncle(X, yosef).
+X = david ;
+X = danny ;
+X = jonny ;
+X = joel ;
+X = mark ;
+X = scott ;
+false.
+
+?- aunt(X, yosef).
+X = yehudis ;
+X = michelle ;
+X = yehudis ;
+X = bergitte ;
+X = beth ;
+X = johanne ;
+X = lisa ;
+false.
+
+?- cousin(X, yosef).
+X = ben ;
+X = judah ;
+X = kuti ;
+X = aliza ;
+X = esti ;
+X = ariella ;
+X = josh ;
+X = jason ;
+X = emily ;
+X = zack ;
+X = sammy ;
+X = rachel ;
+X = avrumi ;
+X = tzvi ;
+X = uri ;
+X = rena ;
+X = shira ;
+X = halle ;
+X = mackie ;
+false.
+
+?- grandparent(X, yosef).
+X = lenny ;
+X = sandy ;
+X = lou ;
+X = anita ;
+false.

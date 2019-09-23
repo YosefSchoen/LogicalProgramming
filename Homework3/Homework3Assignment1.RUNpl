@@ -1,0 +1,49 @@
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- [homework3/homework3assignment1].
+ERROR: c:/users/josep/documents/prolog/homework3/homework3assignment1.pl:44:
+        No permission to redefine imported_procedure `lists:intersection/3'
+ERROR: c:/users/josep/documents/prolog/homework3/homework3assignment1.pl:46:
+        No permission to redefine imported_procedure `lists:intersection/3'
+ERROR: c:/users/josep/documents/prolog/homework3/homework3assignment1.pl:49:
+        No permission to redefine imported_procedure `lists:intersection/3'
+Warning: c:/users/josep/documents/prolog/homework3/homework3assignment1.pl:65:
+        Clauses of is_member/2 are not together in the source-file
+          Earlier definition at c:/users/josep/documents/prolog/homework3/homework3assignment1.pl:52
+          Current predicate: minus/3
+          Use :- discontiguous is_member/2. to suppress this message
+true.
+
+?- sum(6, X).
+X = 21 .
+
+?- sumDigits(1234, X).
+X = 10 .
+
+?- num_to(12354, X).
+X = [1, 2, 3, 5, 4] .
+
+?- merge_rev([1,2,3,5,6], X).
+X = 65321 .
+
+?- answer(4325, X).
+X = 5234 .
+
+?- intersection([1,2,3,4],[3,4,5]).
+ERROR: Undefined procedure: intersection/2
+ERROR:     However, there are definitions for:
+ERROR:         lists:intersection/3
+false.
+
+?- intersection([1,2,3,4],[3,4,5], X).
+X = [3, 4].
+
+?- minus([1,2,3,4],[3,4,5], X).
+X = [1, 2] .
+
+?-

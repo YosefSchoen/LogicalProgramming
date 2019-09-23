@@ -1,0 +1,10 @@
+%Yosef schoen and Saul Rothman
+
+student(dani, prolog).
+student(nili, history).
+student(nili, prolog).
+student(ran, mathematics).
+student(ran, prolog).
+student(ran, history).
+student(dani, mathematics).
+
